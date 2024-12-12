@@ -18,7 +18,7 @@ const WhyPanopilaContainer = () => {
             className="d-flex flex-column align-items-start gap-2"
             id="container-1"
           >
-            <img src="/assets/images/verified-icon.svg" alt="Verified Icon" />
+            <img src="verified-icon.svg" alt="Verified Icon" />
             <h1 className="hearder-item-text">Why Choose RaptorX.ai</h1>
             <p className="header-description-text">
               Discover how we make sure things are safe and trustworthy in a
@@ -26,7 +26,7 @@ const WhyPanopilaContainer = () => {
             </p>
             <div className="navigation-wrapper">
               <div>What sets us apart</div>
-              <img src="/assets/images/arrow-icon.svg"></img>
+              <img src="arrow-icon.svg"></img>
             </div>
           </div>
           <div id="container-2">

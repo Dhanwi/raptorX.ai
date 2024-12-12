@@ -1,0 +1,12 @@
+#fotter-base {
+  background: var(--Background-Colors-Dark-Background-3rd-Background, #11171f);
+}
+
+.col-auto a {
+  text-decoration: none;
+  color: #ffffffb2;
+}
+
+.col-auto a:hover {
+  color: #35adf4;
+}

@@ -31,7 +31,7 @@ const Header = () => {
             id="header"
           >
             <Link to="/" className="text-decoration-none" id="company-logo">
-              <img src="/assets/images/mainLogo.svg" alt="Company Logo" />
+              <img src="mainLogo.svg" alt="Company Logo" />
             </Link>
             <div id="menu-items">
               <Link
@@ -84,7 +84,7 @@ const Header = () => {
               <div>Sign Up</div>
             </button>
             <div className="menu-icon" onClick={() => handleToggle()}>
-              <img src="/assets/images/menu-icon.svg" alt="Menu Icon" />
+              <img src="menu-icon.svg" alt="Menu Icon" />
             </div>
           </div>
         </div>

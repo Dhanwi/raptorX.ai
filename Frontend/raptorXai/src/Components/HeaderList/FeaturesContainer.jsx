@@ -17,10 +17,7 @@ const FeaturesContainer = () => {
             className="d-flex flex-column align-items-start gap-2"
             id="container-1"
           >
-            <img
-              src="/assets/images/solutionMainIcon.svg"
-              alt="Verified Icon"
-            />
+            <img src="solutionMainIcon.svg" alt="Verified Icon" />
             <h1 className="hearder-item-text">Fraud Prevention</h1>
             <p className="header-description-text">
               Find out how our industry-leading ecommerce fraud prevention can
@@ -61,19 +58,6 @@ const FeaturesContainer = () => {
                 </div>
               </Link>
             </div>
-            {/* <div id="container-3">
-                <h1>COMPLIANCE</h1>
-                <Link className="container-4" to="/solutions/regulatory-reporting">
-                  <div className="container-5">
-                    <img src="../icons/regulatory-reporting-icon.svg"></img>
-                  </div>
-                  <div className="container-6">
-                    <h1>Regulatory reporting</h1>
-                    <p>Collect, monitor, and track data across a portfolio</p>
-                  </div>
-                </Link>
-
-              </div> */}
           </div>
         </div>
       )}

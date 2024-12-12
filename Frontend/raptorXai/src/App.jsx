@@ -1,26 +1,24 @@
-import React from "react";
-import Header from "./Components/Header";
+import Header from "./components/Header";
+import "./App.css";
+import Footer from "./Components/Footer";
+import { Route, BrowserRouter, Routes } from "react-router-dom";
+
 import ScrollToTop from "./Components/ScrollToTop";
-import { BrowserRouter } from "react-router-dom";
+import LandingPage from "./pages/LandingPage";
 
-const App = () => {
-  // const appRef = useRef(null);
-
-  // useGSAP(()=>{
-  //   gsap.to(appRef.current, {
-  //     y: 100,
-  //     x: 200
-  //   })
-  // })
-
+function App() {
   return (
     <div className="layout-container">
+      <ScrollToTop />
+      <Header></Header>
       <BrowserRouter>
-        <ScrollToTop />
-        <Header />
+        <Routes>
+          <Route path="/" element={<LandingPage />} />
+        </Routes>
       </BrowserRouter>
+      <Footer></Footer>
     </div>
   );
-};
+}
 
 export default App;
